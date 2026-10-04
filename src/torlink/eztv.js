@@ -1,7 +1,7 @@
 const { fetchResilient, HttpError, USER_AGENT } = require("./net");
 const { buildMagnet } = require("./magnet");
 
-const API = "https://eztvx.to/api/get-torrents";
+const API = "https://eztv.wf/api/get-torrents";
 
 function matchesEpisode(title, season, episode) {
   const s = String(season).padStart(2, "0");

@@ -217,7 +217,7 @@ var require_eztv = __commonJS({
   "src/torlink/eztv.js"(exports2, module2) {
     var { fetchResilient, HttpError, USER_AGENT } = require_net();
     var { buildMagnet } = require_magnet();
-    var API = "https://eztvx.to/api/get-torrents";
+    var API = "https://eztv.wf/api/get-torrents";
     function matchesEpisode(title, season, episode) {
       const s = String(season).padStart(2, "0");
       const e = String(episode).padStart(2, "0");
